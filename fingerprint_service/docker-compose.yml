@@ -14,7 +14,7 @@ services:
     image: r3y3s_fingerprint
     build: .
     ports:
-      - 8080:80
+      - 5555:80
     restart: unless-stopped
     container_name: r3y3s_fingerprint_client
     depends_on:
